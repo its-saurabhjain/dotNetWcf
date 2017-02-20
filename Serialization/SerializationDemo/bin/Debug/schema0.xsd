@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Eval" nillable="true" type="Eval" />
+  <xs:complexType name="Eval">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="evalid" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Submitter" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Timespent" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Comments" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="post" type="Post" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Post">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="PostId" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PostComments" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Post" nillable="true" type="Post" />
+  <xs:element name="DetailedEval" nillable="true" type="DetailedEval" />
+  <xs:complexType name="DetailedEval">
+    <xs:complexContent mixed="false">
+      <xs:extension base="Eval">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="AdditionalComment" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Questions" type="ArrayOfQuestionRating" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfQuestionRating">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="QuestionRating" nillable="true" type="QuestionRating" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="QuestionRating">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="QuestionText" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Ratings" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="QuestionRating" nillable="true" type="QuestionRating" />
+  <xs:element name="Address" nillable="true" type="Address" />
+  <xs:complexType name="Address">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Street" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="City" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="State" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Zip" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CompanyType" type="CompanyType" />
+  <xs:simpleType name="CompanyType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="LLC" />
+      <xs:enumeration value="SCorp" />
+      <xs:enumeration value="CCorp" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Company" nillable="true" type="Company" />
+  <xs:complexType name="Company">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="CompanyName" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="CompanyType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Address" type="Address" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Person" nillable="true" type="Person" />
+  <xs:complexType name="Person">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Id" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Contact" nillable="true" type="Contact" />
+  <xs:complexType name="Contact">
+    <xs:complexContent mixed="false">
+      <xs:extension base="Person">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="Phone" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Email" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Customer" nillable="true" type="Customer" />
+  <xs:complexType name="Customer">
+    <xs:complexContent mixed="false">
+      <xs:extension base="Contact">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomerId" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE482CA5-B559-4A89-A62D-A4A1C10864DE}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF", "WCF", "{BF64CAA9-6E48-4BC0-B940-08A9AF349BA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{5B8EDCC8-EA4F-4365-AAB2-E9154B1E4A2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalServiceLibrary", "Serialization\EvalServiceLibrary\EvalServiceLibrary.csproj", "{9C0B694A-7F6A-4ED4-8940-57BA34424F68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationDemo", "Serialization\SerializationDemo\SerializationDemo.csproj", "{295CECA7-3141-4C71-A10C-5F8F537168CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceHostApp", "Serialization\ServiceHost\ServiceHostApp.csproj", "{5D94EAC8-02A9-46E7-BE97-B7C66D393A57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationClient", "Serialization\SerializationClient\SerializationClient.csproj", "{72CB4CFD-970A-4019-969E-08FF710A0CC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C0B694A-7F6A-4ED4-8940-57BA34424F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0B694A-7F6A-4ED4-8940-57BA34424F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0B694A-7F6A-4ED4-8940-57BA34424F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0B694A-7F6A-4ED4-8940-57BA34424F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{295CECA7-3141-4C71-A10C-5F8F537168CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{295CECA7-3141-4C71-A10C-5F8F537168CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{295CECA7-3141-4C71-A10C-5F8F537168CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{295CECA7-3141-4C71-A10C-5F8F537168CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D94EAC8-02A9-46E7-BE97-B7C66D393A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D94EAC8-02A9-46E7-BE97-B7C66D393A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D94EAC8-02A9-46E7-BE97-B7C66D393A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D94EAC8-02A9-46E7-BE97-B7C66D393A57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72CB4CFD-970A-4019-969E-08FF710A0CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72CB4CFD-970A-4019-969E-08FF710A0CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72CB4CFD-970A-4019-969E-08FF710A0CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72CB4CFD-970A-4019-969E-08FF710A0CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B8EDCC8-EA4F-4365-AAB2-E9154B1E4A2A} = {BF64CAA9-6E48-4BC0-B940-08A9AF349BA9}
+		{9C0B694A-7F6A-4ED4-8940-57BA34424F68} = {5B8EDCC8-EA4F-4365-AAB2-E9154B1E4A2A}
+		{295CECA7-3141-4C71-A10C-5F8F537168CB} = {5B8EDCC8-EA4F-4365-AAB2-E9154B1E4A2A}
+		{5D94EAC8-02A9-46E7-BE97-B7C66D393A57} = {5B8EDCC8-EA4F-4365-AAB2-E9154B1E4A2A}
+		{72CB4CFD-970A-4019-969E-08FF710A0CC5} = {5B8EDCC8-EA4F-4365-AAB2-E9154B1E4A2A}
+	EndGlobalSection
+EndGlobal
