@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://learningwcf.com/serialization/evals" elementFormDefault="qualified" targetNamespace="http://learningwcf.com/serialization/evals" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:4321/serializationDemo?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/EvalServiceLibrary" />
+  <xs:complexType name="Evaluation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="From" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Timespent" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="What" nillable="true" type="xs:string">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/EvalServiceLibrary" minOccurs="0" name="post" nillable="true" type="q1:Post">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Evaluation" nillable="true" type="tns:Evaluation" />
+  <xs:complexType name="DetailedEval">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Evaluation">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Questions" nillable="true" type="tns:ArrayOfQuestionRating" />
+          <xs:element minOccurs="0" name="additional" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DetailedEval" nillable="true" type="tns:DetailedEval" />
+  <xs:complexType name="ArrayOfQuestionRating">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="QuestionRating" nillable="true" type="tns:QuestionRating" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfQuestionRating" nillable="true" type="tns:ArrayOfQuestionRating" />
+  <xs:complexType name="QuestionRating">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="QuestionText" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Ratings" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="QuestionRating" nillable="true" type="tns:QuestionRating" />
+  <xs:complexType name="BadEvalSubmission">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Problem" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BadEvalSubmission" nillable="true" type="tns:BadEvalSubmission" />
+  <xs:complexType name="ArrayOfEvaluation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Evaluation" nillable="true" type="tns:Evaluation" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEvaluation" nillable="true" type="tns:ArrayOfEvaluation" />
+</xs:schema>
