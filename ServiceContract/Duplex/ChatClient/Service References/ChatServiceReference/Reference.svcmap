@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fecaa778-f096-48b3-801a-85d80c007058" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:4321/chatmgr" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="chatmgr.xsd" MetadataType="Schema" ID="7998f618-e4a3-4208-b204-bdc31aa4011e" SourceId="1" SourceUrl="http://localhost:4321/chatmgr?xsd=xsd1" />
+    <MetadataFile FileName="chatmgr.wsdl" MetadataType="Wsdl" ID="656ab9e0-cee2-40f2-bbc3-6da87675c59d" SourceId="1" SourceUrl="http://localhost:4321/chatmgr?wsdl=wsdl0" />
+    <MetadataFile FileName="chatmgr1.xsd" MetadataType="Schema" ID="dc9d1292-5609-43a6-b99c-7f1e2f736b09" SourceId="1" SourceUrl="http://localhost:4321/chatmgr?xsd=xsd0" />
+    <MetadataFile FileName="chatmgr.disco" MetadataType="Disco" ID="d29a7c2f-bf1c-44d3-bfed-afa55a279574" SourceId="1" SourceUrl="http://localhost:4321/chatmgr?disco" />
+    <MetadataFile FileName="ChatManagerService.wsdl" MetadataType="Wsdl" ID="068f8c52-5b32-43fb-aab0-0a81aff9746d" SourceId="1" SourceUrl="http://localhost:4321/chatmgr?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,8 @@
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\ServiceHostApp\bin\Debug\ServiceHostApp.exe.config
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\ServiceHostApp\bin\Debug\ServiceHostApp.exe
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\ServiceHostApp\bin\Debug\ServiceHostApp.pdb
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\ServiceHostApp\bin\Debug\MathServiceLibrary.dll
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\ServiceHostApp\bin\Debug\MathServiceLibrary.pdb
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\ServiceHostApp\obj\Debug\ServiceHostApp.csprojResolveAssemblyReference.cache
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\ServiceHostApp\obj\Debug\ServiceHostApp.exe
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\ServiceHostApp\obj\Debug\ServiceHostApp.pdb

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cc2b6a2d-0d8f-49b0-9336-5c456304af1b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:4321/MathServiceEx" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MathServiceEx.xsd" MetadataType="Schema" ID="637e567a-a520-40cc-8697-7ea1b47c649f" SourceId="1" SourceUrl="http://localhost:4321/MathServiceEx?xsd=xsd0" />
+    <MetadataFile FileName="MathServiceEx.disco" MetadataType="Disco" ID="17abf7e2-04d9-402a-9a77-c582274a814d" SourceId="1" SourceUrl="http://localhost:4321/MathServiceEx?disco" />
+    <MetadataFile FileName="MathServiceEx1.xsd" MetadataType="Schema" ID="4e94449e-c4f2-4ef0-9734-e1f2d67ac727" SourceId="1" SourceUrl="http://localhost:4321/MathServiceEx?xsd=xsd2" />
+    <MetadataFile FileName="MathServiceEx2.xsd" MetadataType="Schema" ID="1e90664f-579b-4eb4-9b4a-b5479e293d7c" SourceId="1" SourceUrl="http://localhost:4321/MathServiceEx?xsd=xsd1" />
+    <MetadataFile FileName="MathServiceEx.wsdl" MetadataType="Wsdl" ID="6e9b4153-2b86-435b-9d03-55fab5c7f7ee" SourceId="1" SourceUrl="http://localhost:4321/MathServiceEx?wsdl=wsdl0" />
+    <MetadataFile FileName="MathServiceEx1.wsdl" MetadataType="Wsdl" ID="12ce9777-e4a4-40fa-aef0-f1b9419d6be1" SourceId="1" SourceUrl="http://localhost:4321/MathServiceEx?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

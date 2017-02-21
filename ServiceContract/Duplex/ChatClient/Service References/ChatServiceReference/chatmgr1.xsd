@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://learningwcf.com/chat" elementFormDefault="qualified" targetNamespace="http://learningwcf.com/chat" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="RegisterClient">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SubmitMessage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="msg" nillable="true" type="tns:ChatMessage" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ChatMessage">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Timestamp" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="message" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ChatMessage" nillable="true" type="tns:ChatMessage" />
+  <xs:element name="SendMessage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="msg" nillable="true" type="tns:ChatMessage" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

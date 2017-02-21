@@ -1,0 +1,8 @@
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\Duplex\ChatServer\bin\Debug\ChatServer.exe.config
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\Duplex\ChatServer\bin\Debug\ChatServer.exe
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\Duplex\ChatServer\bin\Debug\ChatServer.pdb
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\Duplex\ChatServer\bin\Debug\ChatLibrary.dll
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\Duplex\ChatServer\bin\Debug\ChatLibrary.pdb
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\Duplex\ChatServer\obj\Debug\ChatServer.csprojResolveAssemblyReference.cache
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\Duplex\ChatServer\obj\Debug\ChatServer.exe
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\Duplex\ChatServer\obj\Debug\ChatServer.pdb

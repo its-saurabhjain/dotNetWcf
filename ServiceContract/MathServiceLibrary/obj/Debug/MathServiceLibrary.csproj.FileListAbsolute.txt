@@ -1,0 +1,6 @@
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\MathServiceLibrary\bin\Debug\MathServiceLibrary.dll.config
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\MathServiceLibrary\bin\Debug\MathServiceLibrary.dll
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\MathServiceLibrary\bin\Debug\MathServiceLibrary.pdb
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\MathServiceLibrary\obj\Debug\MathServiceLibrary.dll
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\MathServiceLibrary\obj\Debug\MathServiceLibrary.pdb
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\MathServiceLibrary\obj\Debug\MathServiceLibrary.csprojResolveAssemblyReference.cache

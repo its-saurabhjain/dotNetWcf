@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://learningwcf.com/MathService" elementFormDefault="qualified" targetNamespace="http://learningwcf.com/MathService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:4321/MathServiceEx?xsd=xsd1" namespace="http://schemas.datacontract.org/2004/07/MathServiceLibrary" />
+  <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/MathServiceLibrary" name="mathInputs" nillable="true" type="q1:MathInputs" />
+  <xs:element name="UserId" nillable="true" type="xs:string" />
+  <xs:element name="result" type="xs:double" />
+</xs:schema>

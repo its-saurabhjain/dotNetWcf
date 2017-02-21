@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://learningwcf.com/MathService" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://learningwcf.com/MathService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://learningwcf.com/MathService/Imports">
+      <xsd:import schemaLocation="http://localhost:4321/MathService?xsd=xsd0" namespace="http://learningwcf.com/MathService" />
+      <xsd:import schemaLocation="http://localhost:4321/MathService?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:4321/MathService?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="SimpleMath_add_InputMessage">
+    <wsdl:part name="parameters" element="tns:add" />
+  </wsdl:message>
+  <wsdl:message name="SimpleMath_add_OutputMessage">
+    <wsdl:part name="parameters" element="tns:addResponse" />
+  </wsdl:message>
+  <wsdl:message name="SimpleMath_addList_InputMessage">
+    <wsdl:part name="parameters" element="tns:addList" />
+  </wsdl:message>
+  <wsdl:message name="SimpleMath_sub_InputMessage">
+    <wsdl:part name="parameters" element="tns:sub" />
+  </wsdl:message>
+  <wsdl:message name="SimpleMath_sub_OutputMessage">
+    <wsdl:part name="parameters" element="tns:subResponse" />
+  </wsdl:message>
+  <wsdl:message name="SimpleMath_mul_InputMessage">
+    <wsdl:part name="parameters" element="tns:mul" />
+  </wsdl:message>
+  <wsdl:message name="SimpleMath_mul_OutputMessage">
+    <wsdl:part name="parameters" element="tns:mulResponse" />
+  </wsdl:message>
+  <wsdl:message name="SimpleMath_div_InputMessage">
+    <wsdl:part name="parameters" element="tns:div" />
+  </wsdl:message>
+  <wsdl:message name="SimpleMath_div_OutputMessage">
+    <wsdl:part name="parameters" element="tns:divResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SimpleMath">
+    <wsdl:operation name="add">
+      <wsdl:input wsaw:Action="http://learningwcf.com/MathService/SimpleMath/add" message="tns:SimpleMath_add_InputMessage" />
+      <wsdl:output wsaw:Action="http://learningwcf.com/MathService/SimpleMath/addResponse" message="tns:SimpleMath_add_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="addList">
+      <wsdl:input wsaw:Action="http://learningwcf.com/MathService/SimpleMath/addList" message="tns:SimpleMath_addList_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="sub">
+      <wsdl:input wsaw:Action="http://learningwcf.com/MathService/SimpleMath/sub" message="tns:SimpleMath_sub_InputMessage" />
+      <wsdl:output wsaw:Action="http://learningwcf.com/MathService/SimpleMath/subResponse" message="tns:SimpleMath_sub_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="mul">
+      <wsdl:input wsaw:Action="http://learningwcf.com/MathService/SimpleMath/mul" message="tns:SimpleMath_mul_InputMessage" />
+      <wsdl:output wsaw:Action="http://learningwcf.com/MathService/SimpleMath/mulResponse" message="tns:SimpleMath_mul_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="div">
+      <wsdl:input wsaw:Action="http://learningwcf.com/MathService/SimpleMath/div" message="tns:SimpleMath_div_InputMessage" />
+      <wsdl:output wsaw:Action="http://learningwcf.com/MathService/SimpleMath/divResponse" message="tns:SimpleMath_div_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

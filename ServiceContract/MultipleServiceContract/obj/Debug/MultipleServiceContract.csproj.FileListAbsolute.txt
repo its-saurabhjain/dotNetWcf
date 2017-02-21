@@ -1,0 +1,6 @@
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\MultipleServiceContract\obj\Debug\MultipleServiceContract.csprojResolveAssemblyReference.cache
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\MultipleServiceContract\bin\Debug\MultipleServiceContract.dll.config
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\MultipleServiceContract\bin\Debug\MultipleServiceContract.dll
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\MultipleServiceContract\bin\Debug\MultipleServiceContract.pdb
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\MultipleServiceContract\obj\Debug\MultipleServiceContract.dll
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ServiceContract\MultipleServiceContract\obj\Debug\MultipleServiceContract.pdb
