@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://learningwcf.com/serialization/evals" elementFormDefault="qualified" targetNamespace="http://learningwcf.com/serialization/evals" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Evaluation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="From" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Timespent" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="What" nillable="true" type="xs:string">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Evaluation" nillable="true" type="tns:Evaluation" />
+  <xs:complexType name="ArrayOfEvaluation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Evaluation" nillable="true" type="tns:Evaluation" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEvaluation" nillable="true" type="tns:ArrayOfEvaluation" />
+</xs:schema>

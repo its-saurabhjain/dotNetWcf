@@ -1,0 +1,6 @@
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Security\SecurityClient\bin\Debug\SecurityClient.exe.config
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Security\SecurityClient\bin\Debug\SecurityClient.exe
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Security\SecurityClient\bin\Debug\SecurityClient.pdb
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Security\SecurityClient\obj\Debug\SecurityClient.exe
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Security\SecurityClient\obj\Debug\SecurityClient.pdb
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Security\SecurityClient\obj\Debug\SecurityClient.csprojResolveAssemblyReference.cache

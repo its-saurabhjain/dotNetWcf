@@ -1,0 +1,15 @@
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Serialization\EvalServiceLibrary\bin\Debug\EvalServiceLibrary.dll
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Serialization\EvalServiceLibrary\bin\Debug\EvalServiceLibrary.pdb
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Serialization\EvalServiceLibrary\obj\Debug\EvalServiceLibrary.csprojResolveAssemblyReference.cache
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Serialization\EvalServiceLibrary\obj\Debug\EvalServiceLibrary.dll
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Serialization\EvalServiceLibrary\obj\Debug\EvalServiceLibrary.pdb
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ExceptionFaults\EvalServiceLibrary\bin\Debug\EvalServiceLibrary.dll
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ExceptionFaults\EvalServiceLibrary\bin\Debug\EvalServiceLibrary.pdb
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ExceptionFaults\EvalServiceLibrary\obj\Debug\EvalServiceLibrary.dll
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ExceptionFaults\EvalServiceLibrary\obj\Debug\EvalServiceLibrary.pdb
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\ExceptionFaults\EvalServiceLibrary\obj\Debug\EvalServiceLibrary.csprojResolveAssemblyReference.cache
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Security\EvalServiceLibrary\obj\Debug\EvalServiceLibrary.csprojResolveAssemblyReference.cache
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Security\EvalServiceLibrary\obj\Debug\EvalServiceLibrary.dll
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Security\EvalServiceLibrary\obj\Debug\EvalServiceLibrary.pdb
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Security\EvalServiceLibrary\bin\Debug\EvalServiceLibrary.dll
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Security\EvalServiceLibrary\bin\Debug\EvalServiceLibrary.pdb
