@@ -1,0 +1,6 @@
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Reliability\ChatServiceLibrary\obj\Debug\ChatServiceLibrary.csprojResolveAssemblyReference.cache
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Reliability\ChatServiceLibrary\bin\Debug\ChatServiceLibrary.dll.config
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Reliability\ChatServiceLibrary\bin\Debug\ChatServiceLibrary.dll
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Reliability\ChatServiceLibrary\bin\Debug\ChatServiceLibrary.pdb
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Reliability\ChatServiceLibrary\obj\Debug\ChatServiceLibrary.dll
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Reliability\ChatServiceLibrary\obj\Debug\ChatServiceLibrary.pdb

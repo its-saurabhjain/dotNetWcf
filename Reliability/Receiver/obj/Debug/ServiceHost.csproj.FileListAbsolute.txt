@@ -1,0 +1,8 @@
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Reliability\Receiver\bin\Debug\Receiver.exe.config
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Reliability\Receiver\bin\Debug\Receiver.exe
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Reliability\Receiver\bin\Debug\Receiver.pdb
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Reliability\Receiver\bin\Debug\ChatServiceLibrary.dll
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Reliability\Receiver\bin\Debug\ChatServiceLibrary.pdb
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Reliability\Receiver\obj\Debug\ServiceHost.csprojResolveAssemblyReference.cache
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Reliability\Receiver\obj\Debug\Receiver.exe
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Reliability\Receiver\obj\Debug\Receiver.pdb

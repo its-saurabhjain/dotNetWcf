@@ -1,0 +1,6 @@
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Reliability\Sender\bin\Debug\Sender.exe.config
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Reliability\Sender\bin\Debug\Sender.exe
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Reliability\Sender\bin\Debug\Sender.pdb
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Reliability\Sender\obj\Debug\Sender.exe
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Reliability\Sender\obj\Debug\Sender.pdb
+C:\Users\30197821\Documents\Visual Studio 2015\Projects\dotNetWeb\WCF\Reliability\Sender\obj\Debug\ChatClient.csprojResolveAssemblyReference.cache
